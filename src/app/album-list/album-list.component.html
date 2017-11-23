@@ -1,12 +1,13 @@
-<table>
-  <th>
-    <td>User ID</td>
-    <td>ID</td>
-    <td>Album Title</td>
-  </th>
+<div><table>
+  <tr>
+    <th>User ID</th>
+    <th>ID</th>
+    <th>Album Title</th>
+  </tr>
   <tr *ngFor="let album of albums">
     <td>{{album.userId}}</td>
     <td>{{album.id}}</td>
     <td>{{album.title}}</td>
   </tr>
 </table>
+</div>

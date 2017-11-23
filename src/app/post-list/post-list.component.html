@@ -1,9 +1,9 @@
-<table>
-  <th>
-    <td>User ID</td>
-    <td>ID</td>
-    <td>Title</td>
-  </th>
+<table id="posts">
+   <tr>
+    <th>User ID</th>
+    <th>ID</th>
+    <th>Post Title</th>
+  </tr>
   <tr *ngFor="let post of posts">
     <td>{{post.userId}}</td>
     <td>{{post.id}}</td>
